@@ -1,2 +1,1 @@
-dephell==0.8.3
 poetry==1.1.2
