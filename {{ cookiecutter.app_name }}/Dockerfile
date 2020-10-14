@@ -20,7 +20,7 @@ ENV PYTHONDONTWRITEBYTECODE=$ENABLE_BYTECODE \
     PIP_DEFAULT_TIMEOUT=$PIP_TIMEOUT
 
 WORKDIR /app
-COPY .. /app
+COPY . /app
 RUN pip wheel --no-input . -w dist
 
 
