@@ -9,3 +9,6 @@ format:
 
 test:
 	python -m pytest
+
+static-typing:
+	python -m mypy {{ cookiecutter.app_name }}

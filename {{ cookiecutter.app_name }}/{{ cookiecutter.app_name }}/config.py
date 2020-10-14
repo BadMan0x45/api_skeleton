@@ -1,7 +1,7 @@
 import os
 
 # APP settings
-APP_DEBUG = os.getenv("APP_DEBUG", False)
+APP_DEBUG = bool(os.getenv("APP_DEBUG", False))
 APP_ENV = os.getenv("APP_ENV", "prod")
 
 
