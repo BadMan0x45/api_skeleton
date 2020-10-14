@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "project_name": "API Skeleton",
-  "description": "Basic API Skeleton",
   "app_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "description": "Basic API Skeleton",
   "full_name": "Badman",
   "email": "badman45@protonmail.com>"
 }
